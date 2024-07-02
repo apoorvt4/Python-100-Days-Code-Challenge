@@ -44,4 +44,7 @@ else:
      print("Wrong Answer")
      print("You Lose 2000 RS")
 
+
+print("Hello world")
+
         
