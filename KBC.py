@@ -3,9 +3,9 @@ print("Welcome To Kon Banega Corepati")
 print("Rules Of the Game! \
       1 question = amount 1000 \
       2 question = amount 2000  \
-      3 question = amount 2000  \
-      4 question = amount 2000  \
-      5 question = amount 2000")
+      3 question = amount 3000  \
+      4 question = amount 4000  \
+      5 question = amount 5000")
 
 question1 = ["1, What is The PH value of human Body", '9.2', '7.0', '6.1', '5.4']
 print("Question Number 1\
@@ -21,9 +21,11 @@ answer = input("Enter You answer Here\n")
 if '7.0' == answer:
     print("Correct Answer")
     print("You Win 1000 Rs")
+    print("Balance 1000")
 else:
      print("Wrong Answer")
      print("You Lose 1000 Rs")
+     print("Balance 0")
 
 
 question2 = ["Which of the following are called Key Industrial animals?", "Producers", " Tertiary consumers", "Primary consumers", "None of these"]
@@ -40,11 +42,14 @@ answer = input("Enter You answer Here\n")
 if 'primary consumer' == answer:
     print("Correct Answer")
     print("You Win 2000 Rs")
+    print("Balance 3000")
 else:
      print("Wrong Answer")
      print("You Lose 2000 RS")
+     print("Balance 1000")
 
 
-print("Hello world")
+
+
 
         
