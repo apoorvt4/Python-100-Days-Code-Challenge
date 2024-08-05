@@ -1,1 +1,1 @@
-c.info()
+Maths
