@@ -34,10 +34,21 @@
 #     i = i+1
 
 # print("Done with the loop")
-from random import random
-list = []
+# from random import random
+# list = []
 
-for i in range(10):
-    list.append(random())
+# for i in range(10):
+#     list.append(random())
 
-print(list)
+# print(list)
+
+
+a = [12, 55, 40, 89, 82]
+
+print("Guess The Number From 1 To 100")
+Guess = input("Enter The Guessed Number\n")
+
+if(a >= Guess):
+    print("Yes")
+else:
+    print("No")
