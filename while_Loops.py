@@ -21,10 +21,23 @@
 #     print(i)
 #     i = i + 1
 
-num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-for num in num:
-    print(num)
-    for i in num:
-        print(num)
+# for num in num:
+#     print(num)
+#     for i in num:
+#         print(num)
 
+# i = 0
+# while(i<3):
+#     print(i)
+#     i = i+1
+
+# print("Done with the loop")
+from random import random
+list = []
+
+for i in range(10):
+    list.append(random())
+
+print(list)
